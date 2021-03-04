@@ -32,7 +32,7 @@ outputpath     &nbsp;&nbsp;&nbsp;&nbsp;   __*// sometimes their staff need to cr
 This file is a login interface.
 
 
-### [3. TMMA_program.py]
+### [3. TMMA_program.py](https://github.com/red574890/TMMA-report-project/blob/main/main_code/TMMA_program.py)
 This file is for all the logic and commend for the application.
 
 ### [4. All the .sql](https://github.com/red574890/TMMA-report-project/tree/main/SQLcode)
@@ -46,5 +46,5 @@ I created a lot of store procedures in the database. Those .sql files are to cal
 4. All the store procedure will be put in [All store procedures!](https://github.com/red574890/TMMA-report-project/tree/main/SQLcode/all%20store%20procedures)
 
 
-## Check here to see the [application interface introduction!](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/interface_guide.md)
+## Check here to see the [Application Instruction!](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/interface_guide.md)
 
