@@ -48,4 +48,6 @@ There are several report that standard ERP does not have. Therefore, I customize
 
 For example, their online shop's database is not connected with ERP database. Thus, I created a report to show when they need to update the product quantity to 0.
 
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/online.PNG, "online")
+
 
