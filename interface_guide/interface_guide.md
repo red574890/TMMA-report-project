@@ -38,3 +38,14 @@ There are several sale performances that they need to see every month. This plac
 Example
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/bar.png "main")
+
+
+### (4). Get special data
+There are several report that standard ERP does not have. Therefore, I customized some report in here.
+
+
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main3.PNG "main")
+
+For example, their online shop's database is not connected with ERP database. Thus, I created a report to show when they need to update the product quantity to 0.
+
+
