@@ -30,14 +30,26 @@ CSV file
 ![csv](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/csv.PNG "csv")
 
 
-### (3). Sale plot
-There are several sale performances that they need to see every month. This place's function is to show the sale performance based on start date, end date, and genre.
+### (3). Visualize sales performance
+There are several sale performances that they need to see every month and standard ERP system does not include these reports. This place's function is to show the sale performance based on start date, end date, and genre.
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main5.PNG "main2")
 
 Example
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/bar.png "main")
+
+The following section is for  revenue trend, and revenue pie chart.
+
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main6.PNG "main2")
+
+revenue trend
+
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/trend.png "trend")
+
+revenue pie chart
+
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/Pie.png "pie")
 
 
 ### (4). Get special data
@@ -53,7 +65,6 @@ For example, their online shop's database is not connected with ERP database. Th
 Also, the section is for inactive stock
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main4.PNG "online")
-
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/STOCK.PNG "stock")
 
