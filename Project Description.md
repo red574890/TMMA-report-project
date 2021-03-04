@@ -9,19 +9,19 @@ Therefore, I created a application to organize all the extra functions so that t
 ## file introduction
 ### 1. TMMAinfo.txt
 This file works as a config file. It records the following information for MSSQL database.
-serverid           // SQL server id
+serverid           __*// SQL server id*__
 
-user               // SQL user account
+user               __*// SQL user account*__
 
-passward           // SQL account
+passward           __*// SQL account*__
 
-database           // target database
+database           __*// target database*__
 
-apploginpwd        // the password to login into this application. (They need some safety control)
+apploginpwd        __*// the password to login into this application. (They need some safety control)*__
 
-fontpath           // for special font
+fontpath           __*// for special font*__
 
-outputpath         // sometimes their staff need to create some plots by themselves. So this path where output excel file will go
+outputpath         __*// sometimes their staff need to create some plots by themselves. So this path where output excel file will go*__
 
 ### 2. TMMA.py
 This file is a login interface.
@@ -32,9 +32,9 @@ This file is for all the logic and commend for the application.
 
 ### 4. All the .sql
 I created a lot of store procedures in the database. Those .sql files are to call those store procedures when they click certain buttons.
-1. Buyonegetonefree.sql    // Automatically insert cretain genre of products to a buy one get on free table
-2. Adjustmin.sql           // Automatically adjust the POS system's price of certain product
-3. posall.sql              // Automatically insert cretain genre of products to a pos buy one get on free table
+1. Buyonegetonefree.sql    __*// Automatically insert cretain genre of products to a buy one get on free table*__
+2. Adjustmin.sql           __*// Automatically adjust the POS system's price of certain product*__
+3. posall.sql              __*// Automatically insert cretain genre of products to a pos buy one get on free table*__
 
 
 
