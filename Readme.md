@@ -11,7 +11,7 @@ This project spent around 10 months and eventually they can fully utilize ERP sy
 
 
 ## File introduction
-### 1. TMMAinfo.txt
+### [1. TMMAinfo.txt]
 This file works as a config file. It records the following information for the MSSQL database.
 
 serverid      &nbsp;&nbsp;&nbsp;&nbsp;   __*// SQL server id*__
@@ -28,14 +28,14 @@ fontpath      &nbsp;&nbsp;&nbsp;&nbsp;    __*// for special font*__
 
 outputpath     &nbsp;&nbsp;&nbsp;&nbsp;   __*// sometimes their staff need to create some plots by themselves. So this path where output excel file will go*__
 
-### 2. TMMA.py
+### [2. TMMA.py]
 This file is a login interface.
 
 
-### 3. TMMA_program.py
+### [3. TMMA_program.py]
 This file is for all the logic and commend for the application.
 
-### 4. [All the .sql](https://github.com/red574890/TMMA-report-project/tree/main/SQLcode)
+### [4. All the .sql](https://github.com/red574890/TMMA-report-project/tree/main/SQLcode)
 I created a lot of store procedures in the database. Those .sql files are to call those store procedures when they click certain buttons.
 1. Buyonegetonefree.sql  &nbsp;&nbsp;&nbsp;&nbsp; __*// Automatically insert cretain genre of products to a buy one get on free table*__
 
