@@ -35,7 +35,7 @@ This file is a login interface.
 ### 3. TMMA_program.py
 This file is for all the logic and commend for the application.
 
-### 4. All the .sql
+### 4. [All the .sql](https://github.com/red574890/TMMA-report-project/tree/main/SQLcode)
 I created a lot of store procedures in the database. Those .sql files are to call those store procedures when they click certain buttons.
 1. Buyonegetonefree.sql  &nbsp;&nbsp;&nbsp;&nbsp; __*// Automatically insert cretain genre of products to a buy one get on free table*__
 
@@ -43,7 +43,7 @@ I created a lot of store procedures in the database. Those .sql files are to cal
 
 3. posall.sql          &nbsp;&nbsp;&nbsp;&nbsp;  __*// Automatically insert cretain genre of products to a pos buy one get on free table*__
 
-4. All the store procedure will be put in [All store procedures!]
+4. All the store procedure will be put in [All store procedures!](https://github.com/red574890/TMMA-report-project/tree/main/SQLcode/all%20store%20procedures)
 
 
 ## Check here to see the [application interface introduction!](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/interface_guide.md)
