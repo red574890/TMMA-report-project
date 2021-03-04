@@ -40,5 +40,5 @@ I created a lot of store procedures in the database. Those .sql files are to cal
 3. posall.sql          &nbsp;&nbsp;&nbsp;&nbsp;  __*// Automatically insert cretain genre of products to a pos buy one get on free table*__
 
 
-## Check here to see the [application interface introduction!](https://github.com/red574890/TMMA-report-project/blob/main/interface_guideinterface_guide.md)
+## Check here to see the [application interface introduction!](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/interface_guide.md)
 
