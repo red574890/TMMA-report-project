@@ -9,9 +9,9 @@ Therefore, I created a application to organize all the extra functions so that t
 ## file introduction
 ### 1. TMMAinfo.txt
 This file works as a config file. It records the following information for MSSQL database.
-serverid       &ensp    __*// SQL server id*__
+serverid       &   __*// SQL server id*__
 
-user          &ensp     __*// SQL user account*__
+user          &     __*// SQL user account*__
 
 passward       &ensp    __*// SQL account*__
 
