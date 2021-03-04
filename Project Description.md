@@ -11,17 +11,17 @@ Therefore, I created a application to organize all the extra functions so that t
 This file works as a config file. It records the following information for MSSQL database.
 serverid      &nbsp;   __*// SQL server id*__
 
-user          &     __*// SQL user account*__
+user              __*// SQL user account*__
 
-passward       &ensp    __*// SQL account*__
+passward          __*// SQL account*__
 
-database        &ensp   __*// target database*__
+database           __*// target database*__
 
-apploginpwd     &ensp   __*// the password to login into this application. (They need some safety control)*__
+apploginpwd        __*// the password to login into this application. (They need some safety control)*__
 
-fontpath        &ensp   __*// for special font*__
+fontpath          __*// for special font*__
 
-outputpath     &ensp    __*// sometimes their staff need to create some plots by themselves. So this path where output excel file will go*__
+outputpath        __*// sometimes their staff need to create some plots by themselves. So this path where output excel file will go*__
 
 ### 2. TMMA.py
 This file is a login interface.
