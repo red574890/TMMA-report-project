@@ -37,4 +37,4 @@ There are several sale performances that they need to see every month. This plac
 
 Example
 
-![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/bar.PNG "main")
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/bar.png "main")
