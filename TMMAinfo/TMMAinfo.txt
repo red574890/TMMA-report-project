@@ -1,0 +1,7 @@
+serverid=DESKTOP-B0BJM5A
+user=sa
+passward=123
+database=TMMA
+apploginpwd=12345
+fontpath=c:\windows\fonts\simsun.ttc
+outputpath=C:\Users\OWNER\Documents
