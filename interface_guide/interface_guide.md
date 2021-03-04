@@ -12,5 +12,13 @@ Wrong password will show error!
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main.PNG "main")
 
-### (1). First  
-![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main1.PNG "main")
+### (1). Batch Processing
+This section is for batch inserting in Table
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main1.PNG "main1")
+
+
+### (2). Output CSV file
+In this ERP system, POS and Inventory System are separated. 
+Employee sometimes need to integrate both system to do further analysis. Therefore, this button will generate the integrated sales data from 2 system.
+
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main2.PNG "main2")
