@@ -1,4 +1,4 @@
-## 1. login interface
+## 1. login
 
 ![login](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/login.PNG "login")
 
@@ -8,7 +8,7 @@ Wrong password will show error!
 ![login](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/login2.PNG "login")
 
 
-## 2. Main interface
+## 2. Main 
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main.PNG "main")
 
@@ -20,7 +20,7 @@ This section is for batch inserting in Table
 
 ### (2). Output CSV file
 In this ERP system, POS and Inventory System are separated. 
-Employee sometimes need to integrate both system to do further analysis. Therefore, this button will generate the integrated sales data from 2 system from start date to end date.
+Employees sometimes need to integrate both systems to do further analysis. Therefore, this button will generate the integrated sales data from 2 systems from the start date to the end date.
 
                        
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main2.PNG "main2")
@@ -31,7 +31,7 @@ CSV file
 
 
 ### (3). Visualize sales performance
-There are several sale performances that they need to see every month and standard ERP system does not include these reports. This place's function is to show the sale performance based on start date, end date, and genre.
+They need to see several sales performances every month, and the standard ERP system does not include these reports. This function shows the sale performance based on start date, end date, and genre.
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main5.PNG "main2")
 
@@ -53,12 +53,12 @@ revenue pie chart
 
 
 ### (4). Get special data
-There are several report that standard ERP does not have. Therefore, I customized some report in here.
+There are several reports that standard ERP does not have. Therefore, I customized some reports here.
 
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main3.PNG "main")
 
-For example, their online shop's database is not connected with ERP database. Thus, I created a report to show when they need to update the product quantity to 0.
+For example, their online shop's database is not connected with the ERP database. Thus, I created a report to show when they need to update the product quantity to 0.
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/online.PNG "online")
 
