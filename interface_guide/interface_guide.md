@@ -14,6 +14,7 @@ Wrong password will show error!
 
 ### (1). Batch Processing
 This section is for batch inserting in Table
+
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main1.PNG "main1")
 
 
