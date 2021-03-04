@@ -61,41 +61,41 @@ except pyodbc.InterfaceError:
 #顯示視窗標題
 work.title('TMMA外掛程式 v 1.0.2')
 work.geometry('1500x1000+25+25')
-lbl1=Label(work,text='建檔執行類 ',height=4, font=('Helvetica 12 bold')).place(x=10,y=1)
+lbl1=Label(work,text='Batch Process ',height=4, font=('Helvetica 12 bold')).place(x=10,y=1)
 
-lbl2=Label(work,text='報表類',height=4, font=('Helvetica 12 bold'),).place(x=250,y=1)
+lbl2=Label(work,text='Report',height=4, font=('Helvetica 12 bold'),).place(x=250,y=1)
 
-lbl3=Label(work,text='開始日期',height=4,).place(x=250,y=60)
+lbl3=Label(work,text='Start Date',height=4,).place(x=250,y=60)
 
-lbl4=Label(work,text='品號類別三代號',height=4,).place(x=250,y=150)
+lbl4=Label(work,text='Genre 3',height=4,).place(x=250,y=150)
 
-lbl5=Label(work,text='Excel輸出',height=4,).place(x=550,y=60)
+lbl5=Label(work,text='Generate Excel',height=4,).place(x=550,y=60)
 
-lbl6=Label(work,text='銷售金額',height=4,).place(x=750,y=60)
+lbl6=Label(work,text='Revenue',height=4,).place(x=780,y=60)
 
-lbl7=Label(work,text='銷售數量',height=4,).place(x=950,y=60)
+lbl7=Label(work,text='sales volume',height=4,).place(x=1010,y=60)
 
-lbl8=Label(work,text='銷售利潤',height=4,).place(x=1150,y=60)
+lbl8=Label(work,text='Profit',height=4,).place(x=1240,y=60)
 
-lbl9=Label(work,text='銷售成長比率',height=4,).place(x=600,y=260)
+lbl9=Label(work,text='Sales growth rate',height=4,).place(x=600,y=260)
 
-lbl10=Label(work,text='銷售比率',height=4,).place(x=800,y=260)
+lbl10=Label(work,text='Sales rate',height=4,).place(x=900,y=260)
 
-lbl11=Label(work,text='品號類別選擇',height=4,).place(x=300,y=260)
+lbl11=Label(work,text=' Select Genre',height=4,).place(x=300,y=260)
 
-lbl12=Label(work,text='網購需下架商品查詢 ',height=4, font=('Helvetica 12 bold')).place(x=10,y=240)#20200311新增網購查詢類
+lbl12=Label(work,text='Show No Inventory',height=4, font=('Helvetica 12 bold')).place(x=10,y=240)#20200311新增網購查詢類
 
-lbl13=Label(work,text='開始日期',height=4,).place(x=10,y=330)
+lbl13=Label(work,text='Start Date',height=4,).place(x=10,y=330)
 
-lbl14=Label(work,text='結束日期',height=4,).place(x=10,y=380)
+lbl14=Label(work,text='End Date',height=4,).place(x=10,y=380)
 
-lbl15=Label(work,text='庫存呆滯查詢',height=4, font=('Helvetica 12 bold')).place(x=10,y=430)#20200316新增網購查詢類
+lbl15=Label(work,text='Show Inactive Stock',height=4, font=('Helvetica 12 bold')).place(x=10,y=430)#20200316新增網購查詢類
 
-lbl16=Label(work,text='開始日期',height=4,).place(x=10,y=520)
+lbl16=Label(work,text='Start Date',height=4,).place(x=10,y=520)
 
-lbl17=Label(work,text='結束日期',height=4,).place(x=10,y=570)
+lbl17=Label(work,text='End Date',height=4,).place(x=10,y=570)
 
-lbl18=Label(work,text='排除庫別選擇',height=4,).place(x=200,y=260)
+lbl18=Label(work,text='Exclude Warehouse',height=4,).place(x=180,y=260)
 global date1,date2
 
 
@@ -106,9 +106,9 @@ e1=Entry(work,width=10,background='yellow',font=('Arial',16))
 e1.place(x=250,y=115)
 
 
-lbl4=Label(work,text='結束日期',height=4,).place(x=390,y=60)
+lbl4=Label(work,text='End Date',height=4,).place(x=390,y=60)
 
-lbl5=Label(work,text='品號輸入',height=4,).place(x=300,y=370)
+lbl5=Label(work,text='Enter the ProductID',height=4,).place(x=300,y=370)
 
 e2=Entry(work,width=10,background='yellow',font=('Arial',16))
 e2.place(x=390,y=115)
@@ -979,51 +979,52 @@ def transaction():
         messagebox.showinfo(title='吃飽睡睡飽吃',message='沒有資料喔 請行行好看是不是格式打錯了')
 
 #建檔類BTN
-btn=Button(work,text='POS組合促銷品自動新增',height=2,width=20,command=buyonegetontfreepos)
+btn=Button(work,text='POS On Sale Update',height=2,width=30,command=buyonegetontfreepos) #POS組合促銷品自動新增 
 btn.place(x=10,y=60)
 
-btn1=Button(work,text='銷貨促銷買一送一自動新增',height=2,width=20,command=buyonegetonefreeinternet)
+btn1=Button(work,text='Product Promotion Update',height=2,width=30,command=buyonegetonefreeinternet)#銷貨促銷買一送一自動新增
 btn1.place(x=10,y=120)
 
-btn22=Button(work,text='POS組合促銷價格自動更新',height=2,width=20,command=autoupdate)
+btn22=Button(work,text='POS Product Promotion Update',height=2,width=30,command=autoupdate) # POS組合促銷價格自動更新
 btn22.place(x=10,y=180)
 
 
 #報表類BTN
 
-btn2=Button(work,text='POS+ERP銷售總報表',height=2,width=20,command=POSERPSalereport)
+btn2=Button(work,text='POS+ERP Selling Report',height=2,width=30,command=POSERPSalereport)#POS+ERP銷售總報表
 btn2.place(x=550,y=100)
 
-btn3=Button(work,text='總銷售金額最好10項商品',height=2,width=20,command=topfivesales)#20200310更改為顯示10
-btn3.place(x=750,y=100)
+btn3=Button(work,text='Top 10 Revenue Products',height=2,width=30,command=topfivesales)#20200310更改為顯示10  總銷售金額最好10項商品
+btn3.place(x=780,y=100)
 
-btn4=Button(work,text='總銷售數量最好10項商品',height=2,width=20,command=top20salesV)#20200310更改為顯示10
-btn4.place(x=950,y=100)
+btn4=Button(work,text='Top 10 sales volume',height=2,width=30,command=top20salesV)#20200310更改為顯示10 總銷售數量最好10項商品
+btn4.place(x=1010,y=100)
 
-btn5=Button(work,text='POS銷售金額TOP10',height=2,width=20,command=top20salesPOS)#20200310更改為顯示10
-btn5.place(x=750,y=150)
+btn5=Button(work,text='POS Top 10 Revenue Products',height=2,width=30,command=top20salesPOS)#20200310更改為顯示10 POS銷售金額TOP10
+btn5.place(x=780,y=150)
 
-btn6=Button(work,text='利潤最好10項商品',height=2,width=20,command=top20profit)
-btn6.place(x=1150,y=100)
+btn6=Button(work,text='Top 10 Profitable Products',height=2,width=30,command=top20profit)# 利潤最好10項商品
+btn6.place(x=1240,y=100)
 
-btn6=Button(work,text='類別銷售近五個月成長線',height=2,width=20,command=categorysales)
+btn6=Button(work,text='Revenue Trend in last 5 months by on category',height=2,width=40,command=categorysales) #類別銷售近五個月成長線
 btn6.place(x=600,y=300)
 
-btn7=Button(work,text='品號近五個月成長線',height=2,width=20,command=Productsales)
+btn7=Button(work,text='Revenue Trend in last 5 months by on Product',height=2,width=40,command=Productsales)  #品號近五個月成長線
 btn7.place(x=600,y=400)
 
-btn8=Button(work,text='類別銷售比率圓餅圖',height=2,width=20,command=piechart)#20200310增加於LEGEND 顯示類別中文名稱
-btn8.place(x=800,y=300)
+btn8=Button(work,text='Pie Chart of Reveue base on category',height=2,width=40,command=piechart)#20200310增加於LEGEND 顯示類別中文名稱  #類別銷售比率圓餅圖
+btn8.place(x=900,y=300)
 
 
 
 #網購查詢類
-btn9=Button(work,text='期間有銷貨 目前無庫存',height=2,width=20,command=interent3)#20200311新增網路扣庫存查詢按鈕  查前一日
+btn9=Button(work,text='Online Shop',height=2,width=20,command=interent3)#20200311新增網路扣庫存查詢按鈕  查前一日
 btn9.place(x=10,y=300)
 
 #庫存呆滯查詢類
-btn10=Button(work,text='庫存呆滯不分館查詢',height=2,width=20,command=transaction)#20200316新增庫存呆滯查詢
+btn10=Button(work,text='Inactive Stock(All Store) ',height=2,width=20,command=transaction)#20200316新增庫存呆滯查詢
 btn10.place(x=10,y=490)
+
 
 work.mainloop()
 
