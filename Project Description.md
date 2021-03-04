@@ -24,5 +24,11 @@ This file is a login interface.
 ### 3. TMMA_program.py
 This file is for all the logic and commend for the application.
 
+### 4. All the .sql
+I created a lot of store procedures in the database. Those .sql files are to call those store procedures when they click certain buttons.
+1. Buyonegetonefree.sql    // Automatically insert cretain genre of products to a buy one get on free table
+2. Adjustmin.sql           // Automatically adjust the POS system's price of certain product
+3. posall.sql              // Automatically insert cretain genre of products to a pos buy one get on free table
+
 
 
