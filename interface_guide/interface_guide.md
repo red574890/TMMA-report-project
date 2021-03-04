@@ -23,12 +23,16 @@ In this ERP system, POS and Inventory System are separated.
 Employee sometimes need to integrate both system to do further analysis. Therefore, this button will generate the integrated sales data from 2 system from start date to end date.
 
                        
-                       ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main2.PNG "main2")
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main2.PNG "main2")
 
 CSV file
                        
-                       ![csv](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/csv.PNG "csv")
+![csv](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/csv.PNG "csv")
 
 
 ### (3). Sale plot
+There are several sale performances that they need to see every month. This place's function is to show the sale performance based on start date and end date.
+
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main3.PNG "main2")
+
 
