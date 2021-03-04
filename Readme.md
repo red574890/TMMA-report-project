@@ -10,6 +10,10 @@ Therefore, I created an application to organize all the extra functions to be mo
 This project spent around 10 months and eventually they can fully utilize ERP sytem.
 
 
+## Pain Point
+
+In their ERP system, the POS system and inventory system are separated. Their employee had to spend plenty of time integrating the sales data from both systems every month. Also, their business has some unique procedures that the standard system does not support. Therefore, I developed an application to integrate all the functions.
+
 ## File introduction
 ### [1. TMMAinfo.txt](https://github.com/red574890/TMMA-report-project/blob/main/TMMAinfo/TMMAinfo.txt)
 This file works as a config file. It records the following information for the MSSQL database.
