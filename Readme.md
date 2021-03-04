@@ -1,14 +1,18 @@
 # Taipei Mixed Martial Art Project
 
 ## Background
-After I finished implementing the ERP system for this company. They asked me to add in several extra functions, including report and batch processing. 
-After 5 new functions, executing individul code started to become tedious. 
-Therefore, I created a application to organize all the extra functions so that they can be more productive.
+After I finished implementing the ERP system for this company in May, 2018, TMMA asked me to add several extra functions, including report and batch processing. 
+
+After adding five new functions, executing individual code started to become tedious. 
+
+Therefore, I created an application to organize all the extra functions to be more productive.
+
+This project spent around 10 months and eventually they can fully utilize ERP sytem.
 
 
-## file introduction
+## File introduction
 ### 1. TMMAinfo.txt
-This file works as a config file. It records the following information for MSSQL database.
+This file works as a config file. It records the following information for the MSSQL database.
 
 serverid      &nbsp;&nbsp;&nbsp;&nbsp;   __*// SQL server id*__
 
