@@ -50,4 +50,13 @@ For example, their online shop's database is not connected with ERP database. Th
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/online.PNG "online")
 
+Also, the section is for inactive stock
+
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main4.PNG "online")
+
+
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/STOCK.PNG "stock")
+
+
+
 
