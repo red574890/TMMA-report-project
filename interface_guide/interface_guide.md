@@ -11,3 +11,6 @@ Wrong password will show error!
 ## 2. Main interface
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main.PNG "main")
+
+### (1). First  
+![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main1.PNG "main")
