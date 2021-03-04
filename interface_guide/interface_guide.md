@@ -31,7 +31,7 @@ CSV file
 
 
 ### (3). Sale plot
-There are several sale performances that they need to see every month. This place's function is to show the sale performance based on start date and end date.
+There are several sale performances that they need to see every month. This place's function is to show the sale performance based on start date, end date, and genre.
 
 ![main](https://github.com/red574890/TMMA-report-project/blob/main/interface_guide/main5.PNG "main2")
 
