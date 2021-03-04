@@ -11,7 +11,7 @@ This project spent around 10 months and eventually they can fully utilize ERP sy
 
 
 ## File introduction
-### [1. TMMAinfo.txt]
+### [1. TMMAinfo.txt](https://github.com/red574890/TMMA-report-project/blob/main/TMMAinfo/TMMAinfo.txt)
 This file works as a config file. It records the following information for the MSSQL database.
 
 serverid      &nbsp;&nbsp;&nbsp;&nbsp;   __*// SQL server id*__
